@@ -1,0 +1,3 @@
+AddType text/html py
+AddHandler cgi-script .py
+DirectoryIndex pingpanther.py index.html

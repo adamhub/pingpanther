@@ -1,0 +1,185 @@
+/* site wide */
+
+body {
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 18px;
+    color: #404040;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: #404040;
+    margin: 0;
+}
+
+h2, h3, h4, h5, h6 {
+    line-height: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+footer {
+    margin-top: 17px;
+    padding-top: 17px;
+    border-top: 1px solid #EEE;
+}
+
+/* utilities */
+
+.page-header {
+    margin: 0px 0px 17px 0px;
+    padding: 0px;
+    border-bottom: 1px solid #DDD;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+.hidden {
+    display: none;
+}
+
+/* nav */
+
+.navbar-inner {
+    background-color: blue;
+    background-repeat: repeat-x;
+    background-image: -khtml-gradient(linear, left top, left bottom, from(#369), to(blue));
+    background-image: -moz-linear-gradient(top, #369, blue);
+    background-image: -ms-linear-gradient(top, #369, blue);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #369), color-stop(100%, blue));
+    background-image: -webkit-linear-gradient(top, #369, blue);
+    background-image: -o-linear-gradient(top, #369, blue);
+    background-image: linear-gradient(top, #369, blue);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#336699', endColorstr='blue', GradientType=0);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1
+}
+
+.navbar-inner .brand {
+    color: white;
+    text-shadow: none;
+}
+
+.navbar .nav > li > a {
+    padding: 10px 15px 10px;
+    color: #BFBFBF;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+.navbar .nav .active {
+    background-color: transparent;
+}
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-decoration: none;
+}
+
+.navbar .nav > li > a:hover {
+    background-color: #333;
+    background-color: rgba(255, 255, 255, 0.05);
+    color: white;
+    text-decoration: none;
+}
+
+/* form */
+
+.form {
+    text-align: right;
+}
+
+.form .form_left {
+    width: 300px;
+    text-align: left;
+    float: left;
+}
+
+.form .form_buttons > a{
+    margin-top: 10px
+}
+
+.form .form_field {
+    margin-bottom: 10px;
+}
+
+.form .form_field input {
+    margin-bottom: 0px;
+}
+
+.form .form_url, .form .form_tags {
+    width: 300px;
+}
+
+.form .help_text {
+    text-align: right;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.form .help-inline {
+    color: #B94A48;
+}
+
+.form .btn {
+    min-width: 100px;
+}
+
+.form-horizontal .control-label {
+    padding-top: 6px;
+    font-size: 13px;
+    line-height: 18px;
+    float: left;
+    width: 130px;
+    text-align: right;
+    color: #404040;
+}
+
+.form-horizontal .controls {
+    margin-left: 150px;
+}
+
+/* table */
+
+.row_odd {
+    background-color: #f9f9f9;
+}
+
+#addsite_row td:hover {
+    background-color: white;
+}
+
+#addsite_btn {
+    float: right;
+}
+
+#addsite-modal-open {
+    float: right;
+}
+
+#main_container {
+	margin-top: 2em;
+}
+
+#refresh_all_btn {
+	float: right;
+}
+
+.add-email-btn {
+    margin-left:100px;
+}
+
+.delete-email-btn {
+    float: right;
+    margin-right: 310px;
+}

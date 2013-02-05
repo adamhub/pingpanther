@@ -1,0 +1,10 @@
+# use glob syntax.
+syntax: glob
+
+local/*
+pingpanther_update/*
+*.pyc
+local_settings.py
+
+syntax: regexp
+^database\.db$
