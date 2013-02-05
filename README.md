@@ -49,6 +49,8 @@ steps will get you up and running:
 3. Add a cron job through CPANEL/PLESK
 
     */1 * * * * /home/Gondor/pingpanther/checker.py
+    
+Here's [video tutorial](http://screenbird.com/HCTJW7FK) of getting PingPanther setup on Hostgator. 
 
 ### Standard Apache Server 
 
