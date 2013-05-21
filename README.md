@@ -4,7 +4,7 @@ Lightwieght Website Monitoring
 A lightwieght alternative to HUGE network monitoring tools such as Nagios or
 OpenNms. Add URLs and get notified if they are down. Setup takes minutes and
 runs on most cheap hosts. [See a
-demo.](http://pinganther.org/demo/pingpanther.py)
+demo.](http://pingpanther.org/demo)
 
 ### Email Nofiticaion
 
